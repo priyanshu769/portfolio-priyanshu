@@ -2,6 +2,8 @@
 
 CSS is an integral part of the web page which makes the content and web page approachable.
 
+![learn css](/images/learn-css-blog-1.jpg)
+
 Leaning all the CSS seems unachievable but learning it to an extent where using and applying it to our website should be easy for us. So to do that there are a few simple steps that will eventually lead us to the path which clears the "**CSS Concept**".
 
 ## Steps to the path:
@@ -17,6 +19,8 @@ These steps can only be followed, if you are familiar with CSS alittle already.
 4. Now, it's definite that you'll get stuck somewhere. That's the point you want to push and learn a bit more to improve. And here comes the trick, "drum rolls please". 
 Look at the source code of the object you are replicating.
 Right click on the object and click "inspect ", there will be your code. Look at it, try understanding it and repicating it in your component library.
+>Do you know, that one ingredient to improve yourself in CSS? I'll tell you.
+Break big websites into small chunks and make a component library out of it.
 
 That's it, doing it for a few website will shape you CSS skill in a good way and make you write a better CSS for life. Practicing it this way will leas you to clear concept of CSS.
 

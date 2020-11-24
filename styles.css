@@ -1,4 +1,4 @@
-@import url ('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
 
 :root {
     --primary-color: #22D3EE;
@@ -8,10 +8,11 @@
 
 * {
     box-sizing: border-box;
+    letter-spacing: 0.05rem;
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     margin: 0;
 };
 
@@ -151,4 +152,21 @@ hr {
 
 .footer ul {
     padding-inline-start: 0;
+}
+
+/* blog posts */
+.blog-post {
+    line-height: 1.7rem;
+}
+
+.blog-img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    align-items: center;   
+}
+
+.blog-link {
+    text-decoration: none;
+    color: var(--primary-color);
 }
