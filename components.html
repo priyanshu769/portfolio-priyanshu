@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Component Library</title>
+</head>
+<body>
+    <!-- These components and styles are copied from the components we made during neogcamp lesson 3 -->
+
+    <h1>This is Priyanshu's component library.</h1>
+    <p>I am attending neog.cam and I am making a component library which would make all my projects look good and consistent.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading.</h1>
+    <h2>This is the second biggest.</h2>
+    <p>This will be our normal text. This is free flowing and will wrap at the end like a paragraph.</p>
+    <p>This will have our <strong>bold</strong> text.</p>
+    <small>This is the smallest one, which may help as at some places.</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">This is a fluid container and it'll will go till the end of the page.</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a centered container and it'll will go till a specified width.</div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <a class="primary-link links" href="#">Primary Link</a>
+    <a class="secondary-link links" href="#">Secondary Link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>unordered list</h3>
+
+    <p>We won't show the bullets in the list, we'll remove them with the help of CSS.</p>
+
+    <ul class="list-non-bullet">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+    </ul>
+
+    <h3>inline lists</h3>
+    <p>instead of going in a new row, we'll create a list which will take single line.</p>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item 1</li>
+        <li class="list-item-inline">Inline Item 2</li>
+        <li class="list-item-inline">Inline Item 3</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation">
+        <div class="nav-brand">iAmPriyanshu</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline link-active">
+            <a class="links" href="#">home</a>
+                </li>
+            <li class="list-item-inline">
+            <a class="links" href="#">projects</a>
+                </li>
+            <li class="list-item-inline">
+            <a class="links" href="#">blog</a>
+                </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="./images/hero-image.svg" alt="">
+        <h1 class="hero-heading">Heading inside hero <span class="heading-inverted">Text</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h3>white section</h3>
+            <p>This will have white background.</p>
+        </div>
+    </section>
+    
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>off white section</h3>
+            <p>This will have grey background.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer.</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="links" href="#">Social1</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="#">Social2</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="#">Social3</a>
+            </li>
+        </ul>
+    </footer>
+    
+    
+    <div style="height: 10vh;"></div>
+</body>
+</html>
